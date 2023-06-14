@@ -58,6 +58,12 @@
     text-align: center;
   }
 
+  .testimonials p::before {
+    content: " “ ";
+    left: -25px;
+    top: -20px;
+  }
+
   .testimonials__img img {
     max-height: 200px;
   }
