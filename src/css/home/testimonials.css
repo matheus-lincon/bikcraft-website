@@ -1,7 +1,10 @@
 .testimonials {
+  background-color: var(--p-1);
+}
+
+.testimonials__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: var(--p-1);
   overflow: hidden;
 }
 
