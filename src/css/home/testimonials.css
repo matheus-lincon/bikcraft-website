@@ -1,14 +1,12 @@
-.testimonials {
-  background-color: var(--p-1);
-}
-
 .testimonials__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   overflow: hidden;
+
+  background-color: var(--p-1);
 }
 
-.testimonials img {
+.testimonials__img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -56,14 +54,13 @@
 }
 
 @media (max-width: 800px) {
-  .testimonials {
+  .testimonials__container {
     grid-template-columns: 1fr;
     text-align: center;
   }
 
   .testimonials p::before {
-    content: " “ ";
-    left: -25px;
+    left: -50px;
     top: -20px;
   }
 
