@@ -1,3 +1,10 @@
+/* On page */
+#insurance .insurance__container {
+  padding-top: 0;
+}
+
+/* --- */
+
 .insurance {
   background-color: var(--c11);
   color: var(--w);
@@ -21,6 +28,7 @@
 
   display: grid;
   grid-template-columns: 1fr auto;
+  border-radius: 4px;
 }
 
 .insurance__item ul {

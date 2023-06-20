@@ -1,0 +1,41 @@
+.advantages {
+  background-color: var(--c12);
+  color: var(--w);
+}
+
+.advantages p {
+  color: var(--c6);
+}
+
+.advantages__container {
+  padding-block: 120px;
+}
+
+.advantages__container h2 {
+  margin-bottom: 60px;
+}
+
+.advantages__container ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 40px 80px;
+}
+
+.advantages__container h3,
+.advantages__container img {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+  .advantages__container {
+    padding-block: 60px;
+  }
+
+  .advantages__container h2 {
+    margin-bottom: 40px;
+  }
+
+  .advantages__container ul {
+    gap: 20px;
+  }
+}
