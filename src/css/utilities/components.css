@@ -80,9 +80,29 @@
   color: var(--c2);
 }
 
+.button.tertiary {
+  display: flex;
+  align-items: center;
+}
+
+.button.tertiary::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url("../../img/icones/seta.svg");
+
+  transition: transform 0.2s ease-in-out;
+}
+
+.button.tertiary:hover::after {
+  transform: translateX(4px);
+}
+
 @media (max-width: 900px) {
   .button {
     padding: 12px 16px;
-    font: var(--font-1-s);
+    font-size: 1rem;
   }
 }
