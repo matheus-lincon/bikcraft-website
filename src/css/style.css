@@ -8,13 +8,11 @@
 @import "./utilities/components.css";
 /* Home */
 @import "./home/introduction.css";
-/* Bikes */
 @import "./home/bikes.css";
-/* Techs */
 @import "./home/techs.css";
-/* Partners */
 @import "./home/partners.css";
-/* Testimonials */
 @import "./home/testimonials.css";
-/* Insurances */
 @import "./home/insurance.css";
+
+/* Seguros */
+@import "./terms/terms.css";
