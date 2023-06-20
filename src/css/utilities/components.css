@@ -5,6 +5,31 @@
   margin-inline: auto;
 }
 
+/* TITLES */
+.title {
+  color: var(--w);
+  background-color: var(--c11);
+  padding-block: 60px;
+}
+
+.title__container p {
+  margin-bottom: 4px;
+  color: var(--c5);
+  text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+  .title {
+    padding-block: 40px;
+  }
+
+  .title p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+}
+
 /* Button - LINK */
 .link {
   display: inline-block;
