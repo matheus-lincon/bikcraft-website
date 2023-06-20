@@ -22,4 +22,5 @@
 
 .dot-color {
   color: var(--p-1);
+  font-family: "Roboto", sans-serif;
 }
