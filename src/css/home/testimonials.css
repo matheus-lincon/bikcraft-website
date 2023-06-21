@@ -1,9 +1,11 @@
+.testimonials {
+  background-color: var(--p-1);
+}
+
 .testimonials__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   overflow: hidden;
-
-  background-color: var(--p-1);
 }
 
 .testimonials__img img {
