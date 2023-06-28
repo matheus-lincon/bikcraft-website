@@ -1,3 +1,7 @@
+.faq__container {
+  padding-block: 120px;
+}
+
 .faq__container dl dt {
   color: var(--c11);
 }
