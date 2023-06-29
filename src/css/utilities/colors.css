@@ -24,3 +24,119 @@
   color: var(--p-1);
   font-family: "Roboto", sans-serif;
 }
+
+/* TEXT COLORS */
+
+.text-c0 {
+  color: var(--w);
+}
+.text-c1 {
+  color: var(--c1);
+}
+.text-c2 {
+  color: var(--c2);
+}
+.text-c3 {
+  color: var(--c3);
+}
+.text-c4 {
+  color: var(--c4);
+}
+.text-c5 {
+  color: var(--c5);
+}
+.text-c6 {
+  color: var(--c6);
+}
+.text-c7 {
+  color: var(--c7);
+}
+.text-c8 {
+  color: var(--c8);
+}
+.text-c9 {
+  color: var(--c9);
+}
+.text-c10 {
+  color: var(--c10);
+}
+.text-c11 {
+  color: var(--c11);
+}
+.text-c12 {
+  color: var(--c12);
+}
+
+.text-p-1 {
+  color: var(--p-1);
+}
+.text-p-2 {
+  color: var(--p-2);
+}
+.text-p-3 {
+  color: var(--p-3);
+}
+.text-p-4 {
+  color: var(--p-4);
+}
+.text-p-5 {
+  color: var(--p-5);
+}
+
+/* ---- */
+/* BACKGROUND COLORS */
+.bg-c0 {
+  background: var(--w);
+}
+.bg-c1 {
+  background: var(--c1);
+}
+.bg-c2 {
+  background: var(--c2);
+}
+.bg-c3 {
+  background: var(--c3);
+}
+.bg-c4 {
+  background: var(--c4);
+}
+.bg-c5 {
+  background: var(--c5);
+}
+.bg-c6 {
+  background: var(--c6);
+}
+.bg-c7 {
+  background: var(--c7);
+}
+.bg-c8 {
+  background: var(--c8);
+}
+.bg-c9 {
+  background: var(--c9);
+}
+.bg-c10 {
+  background: var(--c10);
+}
+.bg-c11 {
+  background: var(--c11);
+}
+.bg-c12 {
+  background: var(--c12);
+}
+
+.bg-p-1 {
+  background: var(--p-1);
+}
+.bg-p-2 {
+  background: var(--p-2);
+}
+.bg-p-3 {
+  background: var(--p-3);
+}
+.bg-p-4 {
+  background: var(--p-4);
+}
+.bg-p-5 {
+  background: var(--p-5);
+}
