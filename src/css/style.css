@@ -12,7 +12,7 @@
 @import "./home/techs.css";
 @import "./home/partners.css";
 @import "./home/testimonials.css";
-@import "./insurances/insurance.css";
+@import "./insurances/insurances.css";
 
 /* Seguros */
 @import "./terms/terms.css";
@@ -23,3 +23,4 @@
 /* Bikes */
 @import "./bikes/bikes.css";
 @import "./bike/bike.css";
+@import "./bike/insurance.css";
